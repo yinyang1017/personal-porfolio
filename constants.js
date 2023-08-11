@@ -228,7 +228,7 @@ export const PROJECTS = [
     description: "Discord.js ",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "https://discord.gg/Fy9fgVRC",
-    tech: ["react", "discordjs"],
+    tech: ["react", "discord"],
   },
   {
     name: "Sols Natcher",

@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
             <div className="seq pt-4 text-center">
               <Button
-                href={`#${MENULINKS[4].ref}`}
+                href={`#${MENULINKS[3].ref}`}
                 classes="link"
                 type="secondary"
               >
