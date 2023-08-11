@@ -14,16 +14,15 @@ const Hero = () => {
   const targetSection = useRef(null);
   const lottieRef = useRef(null);
 
-  const options = {
-    strings: TYPED_STRINGS,
-    typeSpeed: 50,
-    startDelay: 1500,
-    backSpeed: 50,
-    backDelay: 8000,
-    loop: true,
-  };
-
   useEffect(() => {
+    const options = {
+      strings: TYPED_STRINGS,
+      typeSpeed: 50,
+      startDelay: 1500,
+      backSpeed: 50,
+      backDelay: 8000,
+      loop: true,
+    };
     const typed = new Typed(typedEl.current, options);
 
     const revealTl = gsap.timeline({ defaults: { ease: Linear.easeNone } });
@@ -36,7 +35,7 @@ const Hero = () => {
       );
 
     return () => typed.destroy();
-  }, [typedEl, targetSection]);
+  }, []);
 
   // useEffect(() => {
   //   lottie.loadAnimation({
