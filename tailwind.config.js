@@ -43,6 +43,7 @@ module.exports = {
     fontFamily: {
       sans: ["Calibre", "sans-serif"],
       mono: ['"JetBrains Mono"', "monospace"],
+      zhong: ["SentyWEN", "monospace"],
     },
     spacing: {
       px: "1px",

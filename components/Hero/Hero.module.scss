@@ -1,9 +1,11 @@
 .intro {
   animation: fadeAppear 1s 0.2s;
+  font-size: 6em;
 }
 
 .heroName{
     line-height: 1.5em;
+    
     animation: fadeAppear 1.3s 0.3s;
 
     .emphasize {

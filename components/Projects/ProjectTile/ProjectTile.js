@@ -4,7 +4,7 @@ import VanillaTilt from "vanilla-tilt";
 import styles from "./ProjectTile.module.scss";
 
 const ProjectTile = ({ project, classes, isDesktop }) => {
-  const { name, image, blurImage, description, gradient, url, tech } = project;
+  const { name, image, description, gradient, url, tech } = project;
   const projectCard = useRef(null);
   let additionalClasses = "";
   if (classes) {
@@ -48,8 +48,8 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
           className="absolute w-full h-full top-0 left-0 object-cover opacity-30"
         />
         <Image
-          placeholder="blur"
-          blurDataURL={blurImage}
+          // placeholder="blur"
+          // blurDataURL={blurImage}
           src={image}
           alt={name}
           layout="fill"

@@ -66,15 +66,15 @@ export default function Home() {
                 role="img"
                 className="text-gray-light-1 opacity-10 sm:text-9xl xs:text-8xl inline-block -z-10 absolute rotate-90 right-0 md:top-52 xs:top-96"
               >
-                DEV
+                Mavericks
               </div>
-              <div className="fixed top-0 left-0 h-screen w-screen -z-1"></div>
+              <div className="fixed top-0 left-0 h-screen w-screen -z-1" />
               <Hero />
               <About1 clientHeight={clientHeight} />
               <Skills />
               <About2 clientHeight={clientHeight} />
               <Projects isDesktop={isDesktop} clientHeight={clientHeight} />
-              <Work clientWidth={clientWidth} />
+              {/* <Work clientWidth={clientWidth} /> */}
               <Collaboration clientHeight={clientHeight} />
               <div className="pt-10 sm:pt-16 bg-gray-dark-4"></div>
               <Contact />
