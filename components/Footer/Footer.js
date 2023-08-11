@@ -36,7 +36,7 @@ const Footer = () => {
 
   return (
     <footer
-      className="w-full relative select-none bg-cover"
+      className="w-full relative select-none bg-cover "
       ref={targetSection}
     >
       <FooterBg />
@@ -65,23 +65,18 @@ const Footer = () => {
                   ❤️
                 </span>
               </button>{" "}
-              by <span className="text-white">Shubh Porwal</span>
+              by <span className="text-white">Anthony Williams</span>
             </p>
           </div>
         </div>
       </Fade>
-      <img
+      {/* <img
         src="/footer-curve.svg"
         className="w-full rotate-180"
         alt=""
         loading="eager"
         height={180}
-      />
-      <style jsx global>{`
-        footer {
-          background-image: linear-gradient(270deg, #9f55ff, #7000ff, #8b31ff);
-        }
-      `}</style>
+      /> */}
     </footer>
   );
 };

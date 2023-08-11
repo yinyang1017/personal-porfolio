@@ -27,7 +27,7 @@ const Skills = () => {
 
   return (
     <section
-      className="w-full relative select-none mt-44"
+      className="w-full relative select-none mt-44 bg-gray-dark-1"
       id={MENULINKS[1].ref}
       ref={targetSection}
     >
@@ -45,12 +45,12 @@ const Skills = () => {
             <p className="uppercase tracking-widest text-gray-light-1 seq">
               SKILLS
             </p>
-            <h1 className="text-6xl mt-2 font-medium text-gradient w-fit seq">
-              My Skills
+            <h1 className="text-6xl mt-2 font-zhong font-medium text-gradient w-fit seq">
+              我的技能
             </h1>
             <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 seq">
-              I like to take responsibility to craft aesthetic user experience
-              using modern frontend architecture.{" "}
+              I have a strong background and proven track of MERN, Blockchain
+              and AI Development.
             </h2>
           </div>
           <div className="mt-10">
@@ -85,13 +85,13 @@ const Skills = () => {
               ))}
             </div>
           </div>
-          <div className="flex flex-wrap mt-10">
-            <div className="mr-16 xs:mr-20 mb-6">
+          <div className=" flex flex-wrap gap-10 mt-10">
+            <div>
               <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 seq">
-                DATABASES
+                Blockchain
               </h3>
               <div className="flex flex-wrap gap-6 transform-gpu seq">
-                {SKILLS.databases.map((skill) => (
+                {SKILLS.blockchain.map((skill) => (
                   <Image
                     key={skill}
                     src={`/skills/${skill}.svg`}
@@ -104,10 +104,44 @@ const Skills = () => {
             </div>
             <div>
               <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 seq">
+                AI
+              </h3>
+              <div className="flex flex-wrap gap-6 transform-gpu seq">
+                {SKILLS.ai.map((skill) => (
+                  <Image
+                    key={skill}
+                    src={`/skills/${skill}.svg`}
+                    alt={skill}
+                    width={50}
+                    height={50}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-wrap gap-10 mt-10">
+            <div>
+              <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 seq">
                 Other
               </h3>
               <div className="flex flex-wrap gap-6 transform-gpu seq">
                 {SKILLS.other.map((skill) => (
+                  <Image
+                    key={skill}
+                    src={`/skills/${skill}.svg`}
+                    alt={skill}
+                    width={50}
+                    height={50}
+                  />
+                ))}
+              </div>
+            </div>
+            <div className="mr-16 xs:mr-20 mb-6">
+              <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 seq">
+                DATABASES
+              </h3>
+              <div className="flex flex-wrap gap-6 transform-gpu seq">
+                {SKILLS.databases.map((skill) => (
                   <Image
                     key={skill}
                     src={`/skills/${skill}.svg`}

@@ -82,14 +82,25 @@ const Hero = () => {
       </style>
       <div className="flex flex-col pt-40 md:pt-0 select-none">
         <h5
-          className={`${styles.intro} font-mono font-medium text-indigo-light seq`}
+          className={`${styles.intro} font-zhong font-medium text-indigo-light seq`}
         >
-          Hi, my name is
+          欢迎来到
         </h5>
         <h1 className={`${styles.heroName} text-white text-6xl font-semibold`}>
-          <span className={`relative ${styles.emphasize} seq`}>Shubh</span>
-          <span className="seq"> Porwal</span>
+          <span className={`relative  seq`}> Anthony </span>
+          <span className="seq"> Williams </span>
+          <span
+            className={`font-zhong font-medium text-7xl text-indigo-light seq`}
+          >
+            の{"  "}
+          </span>
+          <span
+            className={`font-mono font-medium text-6xl text-indigo-light seq`}
+          >
+            Workshop
+          </span>
         </h1>
+
         <p>
           <span
             ref={typedEl}
@@ -106,7 +117,7 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className="absolute invisible w-4/12 bottom-1.5 lg:visible lg:right-12 2xl:right-16"
+        className="absolute invisible w-2/5 bottom-1.5 lg:visible lg:right-12 2xl:right-16"
         ref={lottieRef}
       ></div>
     </section>
