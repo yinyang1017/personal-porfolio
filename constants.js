@@ -2,7 +2,7 @@ export const METADATA = {
   author: "Anthony Williams",
   title: "Portfolio | Anthony Williams",
   description:
-    "Anthony Williams is a Frontend Developer from Kuwait, interested in crafting beautiful and functional applications.",
+    "Anthony Williams is a Frontend Developer from Canada, interested in crafting beautiful and functional applications.",
   siteUrl: "",
   twitterHandle: "",
   keywords: [
