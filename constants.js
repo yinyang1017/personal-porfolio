@@ -1,12 +1,12 @@
 export const METADATA = {
-  author: "Anthony Williams",
-  title: "Portfolio | Anthony Williams",
+  author: "Jace Lee",
+  title: "Portfolio | Jace Lee",
   description:
-    "Anthony Williams is a Frontend Developer from Canada, interested in crafting beautiful and functional applications.",
+    "Jace Lee is a Frontend Developer from Canada, interested in crafting beautiful and functional applications.",
   siteUrl: "",
   twitterHandle: "",
   keywords: [
-    "Anthony Williams",
+    "Jace Lee",
     "Frontend Developer",
     "Web Developer",
     "React Native Developer",
