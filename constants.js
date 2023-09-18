@@ -1,12 +1,12 @@
 export const METADATA = {
-  author: "Jace Lee",
-  title: "Portfolio | Jace Lee",
+  author: "Ken Ikeda",
+  title: "Portfolio | Ken Ikeda",
   description:
-    "Jace Lee is a Frontend Developer from Canada, interested in crafting beautiful and functional applications.",
+    "Ken Ikeda is a Frontend Developer from Japan, interested in crafting beautiful and functional applications.",
   siteUrl: "",
   twitterHandle: "",
   keywords: [
-    "Jace Lee",
+    "Ken Ikeda",
     "Frontend Developer",
     "Web Developer",
     "React Native Developer",
