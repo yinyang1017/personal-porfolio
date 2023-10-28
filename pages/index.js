@@ -30,7 +30,7 @@ export default function Home() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 2600);
+    }, 1000);
 
     displayFancyLogs();
   }, []);
@@ -65,7 +65,7 @@ export default function Home() {
                 role="img"
                 className="text-gray-light-1 opacity-10 sm:text-9xl xs:text-8xl inline-block -z-10 absolute rotate-90 right-0 md:top-52 xs:top-96"
               >
-                Mavericks
+                Indefinite
               </div>
               <div className="fixed top-0 left-0 h-screen w-screen -z-1" />
               <Hero />

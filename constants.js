@@ -39,32 +39,25 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
-  "I build things for the web",
-  "I create aesthetic and modern apps",
+  "Frontend Development",
+  "AI Expert",
+  "Data Scraping",
+  "Mobile App Development",
 ];
 
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: secondworld.dev@gmail.com",
-  },
-  {
-    name: "telegram",
-    url: "https://t.me/x2creation",
+    url: "mailto: energeticguy1017@gmail.com",
   },
   {
     name: "github",
-    url: "https://github.com/jameshussey474@gmail.com",
+    url: "https://github.com/yinyangwarrior",
   },
   {
     name: "skype",
     url: "live:.cid.83817373d29b4ae8",
-  },
-  {
-    name: "discord",
-    url: "yuki__1017",
-  },
+  }
 ];
 
 export const SKILLS = {
