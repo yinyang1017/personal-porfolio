@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import { useState, useEffect, useRef } from "react";
 import Typed from "typed.js";
 import { gsap, Linear } from "gsap";

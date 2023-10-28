@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import { useState, useEffect, useRef } from "react";
 import Filter from "bad-words";
 import { MENULINKS } from "../../constants";

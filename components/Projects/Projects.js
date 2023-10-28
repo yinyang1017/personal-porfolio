@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import { useEffect, useRef } from "react";
 import { MENULINKS, PROJECTS } from "../../constants";
 import { gsap, Linear } from "gsap";
