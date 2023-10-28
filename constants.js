@@ -56,7 +56,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "skype",
-    url: "live:.cid.83817373d29b4ae8",
+    url: "https://join.skype.com/invite/uqYqY16nO9PR",
   }
 ];
 
