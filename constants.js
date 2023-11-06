@@ -1,12 +1,12 @@
 export const METADATA = {
-  author: "Ken Ikeda",
-  title: "Portfolio | Ken Ikeda",
+  author: "Ken Suzuki",
+  title: "Portfolio | Ken Suzuki",
   description:
-    "Ken Ikeda is a Frontend Developer from Japan, interested in crafting beautiful and functional applications.",
+    "Ken Suzuki is a Frontend Developer from Japan, interested in crafting beautiful and functional applications.",
   siteUrl: "",
   twitterHandle: "",
   keywords: [
-    "Ken Ikeda",
+    "Ken Suzuki",
     "Frontend Developer",
     "Web Developer",
     "React Native Developer",
